@@ -5,7 +5,7 @@ import os
 import time  # 导入time模块用于计算帧率
 
 os.environ["DISPLAY"] = ":0.0"
-model_path = "model/yolov5n.nb"
+model_path = "../model/yolov5n.nb"
 
 # 检测图片
 yolo = yolov5.YOLO5(model_path)

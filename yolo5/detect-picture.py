@@ -5,9 +5,9 @@ import os
 
 os.environ["DISPLAY"] = ":0.0"
 
-model_path = "model/yolov5s.nb"
+model_path = "../model/yolov5s.nb"
 picture_path = "../image/car.jpg"
-output_path = "../../result.jpg"
+output_path = ".result.jpg"
 
 
 # 检测图片
